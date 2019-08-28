@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "731930155948",
-    "firebase_url": "https://mynavigator-d2475.firebaseio.com",
-    "project_id": "mynavigator-d2475",
-    "storage_bucket": "mynavigator-d2475.appspot.com"
+    "project_number": "765040276271",
+    "firebase_url": "https://goodwin-mobile.firebaseio.com",
+    "project_id": "goodwin-mobile",
+    "storage_bucket": "goodwin-mobile.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:731930155948:android:35a88b5f27497c15",
+        "mobilesdk_app_id": "1:765040276271:android:5ee7dade59834011",
         "android_client_info": {
-          "package_name": "com.kryptosmobile.goodwin"
+          "package_name": "com.unifyed.goodwin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "731930155948-1e02dks7v0ird8lburlepmh67hbmoc27.apps.googleusercontent.com",
+          "client_id": "765040276271-nq5ucrgh2pe8bjo3o0c6ah8oiveobkjm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC9GDECxsUS93_LwzvsAMkKSIzuR2Vbhnk"
+          "current_key": "AIzaSyD6BCW7F0F4V3XU22PPzF_2NqH1XGCUUZE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "731930155948-1e02dks7v0ird8lburlepmh67hbmoc27.apps.googleusercontent.com",
+              "client_id": "765040276271-nq5ucrgh2pe8bjo3o0c6ah8oiveobkjm.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
