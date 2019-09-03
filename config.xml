@@ -20,7 +20,7 @@
         <preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
         <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
         <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
-        <preference name="android-minSdkVersion"      value="19" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+        <preference name="android-minSdkVersion"      value="21" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
         
         <preference name="android-targetSdkVersion" value="28" />
         
@@ -118,6 +118,10 @@
             <param name="SENDER_ID" value="459115189650" />
         </gap:plugin>
         
+        <platform name="android">
+        <resource-file src="google-services.json" target="/google-services.json" />
+        </platform>
+        
         <!-- ios sms plugin -->
         <!--<plugin spec="https://github.com/DevendraSinghNagar/cordova-sms-all-devices-plugin.git" source="git" />-->
 
@@ -157,8 +161,9 @@
     <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
         <string>App Uses User's location services to show direction through Campus</string>
     </config-file>
-</platform>
-        <platform name="android">
+    </platform>
+        
+    <platform name="android">
         <resource-file src="google-services.json" target="/google-services.json" />
     </platform>
         
